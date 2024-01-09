@@ -251,9 +251,6 @@
     display: flex;
     gap: 24px;
 }
-.best-gifts{
-
-}
 .ourawesome{
     color: #F00;
     font-family: Inter;
@@ -265,11 +262,105 @@
     width: 1320px;
     height: 600px;
     margin: 50px auto 0px auto;
-    background-color: #070211;
+    background-color: #FF00000D;
+    position: relative;
+    top: 900px;
 }
 .footer{
     width: 1600px;
     height: 609px;
-    margin: 1600px auto 0px auto;
+    margin: 1000px auto 0px auto;
     background-color: #070211;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 80px 100px;
+}
+form{
+    background: #FFF;
+    width: 600px;
+    height: 55px;
+}
+.search-bar{
+    width: 400px;
+    height: 53px;
+    padding-left: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: #FFF;
+    border-color: transparent;
+}
+.search-button{
+    background-color: #F00;
+    height: 58px;
+    width: 198px;
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+    border-color: transparent;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+.search-bar1{
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+.descriptiobox{
+    text-align: center;
+    padding-top: 130px;
+}
+.subscribe-heading{
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.subscribe-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 40px;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.horizontalline{
+    background-color: transparent;
+    border-color: #F00;
+    border-style: dotted;
+    border-top: transparent;
+    border-block-width: 10px; 
+    border-block-color: #80BCBD;
+}
+.top-footer-par{
+    width: 375px;
+}
+.website{
+    position: relative;
+    bottom: 20px;
+}
+.mid-foorte{
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 10px;
+    position: relative;
+    left: 600px;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
 }

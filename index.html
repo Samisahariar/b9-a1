@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <header>
@@ -40,8 +43,8 @@
                 <h3 class="same">Coming Soon</h3>
                 <p class="comingsoon-des">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
             </div>
-            <div class="comingsoon-sec">
-                <img src="resources/Ellipse 1.png" alt="">
+            <div class="comingsoon-sec-img">
+                <img src="resources/Ellipse 1.png" alt="" class="margin-needed">
             </div>
             <div class="comingsoon-sec">
                 <h3 class="year">2024</h3>
@@ -82,23 +85,43 @@
                     <img src="resources/Rectangle 8.png" alt="">
                 </div>
             </div>
-            <div class="newsletter">
-                <div class="descriptiobox">
-                    <img src="resources/Group 61.png" alt="">
-                    <h3>Subscribe Newletter</h3>
-                    <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
-                    <form method="get" onsubmit="return goSearch();">
-                        <input name="search" value="user@gmail.com">
-                        <button type="submit" onclick="goSearch">Subscribe</button>
+        </div>
+        <div class="newsletter">
+            <div class="descriptiobox">
+                <img src="resources/Group 61.png" alt="">
+                <h3 class="subscribe-heading">Subscribe Newletter</h3>
+                <p class="subscribe-paragraph">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. </p>
+                <div class="search-bar1">
+                    <form class="form">
+                        <input type="text" value="user@gmail.com" class="search-bar">
+                        <button type="submit" onclick="goSearch" class="search-button">Subscribe</button>
                     </form>
                 </div>
             </div>
         </div>
-
     </main>
     <footer>
         <div class="footer">
-
+            <div class="top-footer">
+                <p class="top-footer-par">44, Big Building Roosevelt Street
+                    Beach Gardens Florida 33410</p>
+                <div>
+                    <p class="number">+00 123 584 12</p>
+                    <p class="website">www.website.com</p>
+                </div>
+            </div>
+            <hr class="horizontalline">
+            <div class="mid-foorte">
+                <img src="resources/Facebook.png" alt="">
+                <img src="resources/Instagram.png" alt="">
+                <img src="resources/Twitter.png" alt="">
+                <img src="resources/Linkedin.png" alt="">
+            </div>
+            <hr class="horizontalline">
+            <div class="bottom-footer">
+                <p>2017, All Rights Reserved.</p>
+                <p>Unsubscribe</p>
+            </div>
         </div>
     </footer>
     
