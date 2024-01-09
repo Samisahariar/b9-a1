@@ -161,7 +161,7 @@
 }
 .coming-soon{
     width: 1320px;
-    height: 600px;
+    height: 500px;
     margin: 50px auto 0px auto ;
     flex-shrink: 0;
     display: flex;
@@ -197,4 +197,79 @@
     font-style: normal;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+}
+.holiday-sale{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto 0px auto ;
+}
+.imagesec{
+    text-align: right;
+}
+.group44{
+    position: relative;
+    left:150px;
+    bottom: 50px;
+}
+.holiday-description{
+    text-align: center;
+}
+.sale50{
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0px auto;
+}
+.holiday{
+    color: red;
+}
+.whatisfunc{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.redcarpet{
+    position: relative;
+    bottom: 680px;
+}
+.awesomeportfolio{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto 0px auto ;
+    position: relative;
+    top: 400px;
+}
+.imagescontainer{
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+}
+.images{
+    display: flex;
+    gap: 24px;
+}
+.best-gifts{
+
+}
+.ourawesome{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.newsletter{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto 0px auto;
+    background-color: #070211;
+}
+.footer{
+    width: 1600px;
+    height: 609px;
+    margin: 1600px auto 0px auto;
+    background-color: #070211;
 }
